@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    //for footer position bottom
+    
+    // height: 100%;
+}
+
+body {
+    font-family: $font-primary;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $color-black;
+    line-height: 1.2;
+    background: $color-white;
+
+    //for footer position bottom
+
+    // display: flex;
+    // flex-direction: column;
+    // min-height: 100%;
+}
+
+.container {
+    display: block;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @include mq('phablet') {
+        padding: 0;
+        max-width: 546px;
+    }
+
+    @include mq('tablet') {
+        max-width: 708px;
+    }
+
+    @include mq('tablet-wide') {
+        max-width: 890px;
+    }
+
+    @include mq('desktop') {
+        max-width: 1080px;
+    }
+}
+
+%reset-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
