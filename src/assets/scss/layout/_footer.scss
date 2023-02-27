@@ -1,5 +1,9 @@
 .footer {
-    //for footer position bottom
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    // margin-top: auto;
+    background: #2C3E50;  /* fallback for old browsers */
+    background: linear-gradient(to top, #FD746C, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

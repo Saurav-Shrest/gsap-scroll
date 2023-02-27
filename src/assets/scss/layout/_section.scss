@@ -1,0 +1,36 @@
+.section {
+    min-height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &1 {
+        background: #003973;  /* fallback for old browsers */
+        background: linear-gradient(to left, #E5E5BE, #003973); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    &2 {
+        height: 100vh;
+        background: #8E0E00;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    &4 {
+        height: 120vh;
+        background: #03001e;  /* fallback for old browsers */
+        background: linear-gradient(to top, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    &5 {
+        background: #EF3B36;  /* fallback for old browsers */
+        background: linear-gradient(to bottom, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    &-panel {
+        background-color: #1F1C18;
+        padding: 40px 0;
+    }
+}
