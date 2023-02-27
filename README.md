@@ -16,7 +16,7 @@ In this code the "section-panel" section will pin until the inner scroll complet
 
 const tl = gsap.timeline({...});
 
-- this will crate the timeline and some condition have to be submitted
+- this will crate the timeline and some condition have to be written
 
 
 ## Explation of timeline object variable
